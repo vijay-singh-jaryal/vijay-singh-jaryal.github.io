@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Vijay Singh, transportation systems engineer and IISc graduate.">
+  <title>Projects | Vijay Singh</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html"><img src="assets/network-mark.svg" alt=""><span>Vijay Singh</span></a>
+  <button class="mobile-menu-button" aria-label="Toggle navigation" aria-controls="site-navigation" aria-expanded="false">☰</button>
+</header>
+<aside class="sidebar" id="site-navigation"><div class="sidebar-spacer"></div><nav aria-label="Main navigation"><section class="nav-group"><div class="nav-title">About Me</div><a class="nav-link" href="index.html">Introduction</a><a class="nav-link" href="contact.html">Contact</a></section><section class="nav-group"><div class="nav-title">Research</div><a class="nav-link" href="thesis.html">M.Tech Thesis</a><a class="nav-link active" href="projects.html">Projects</a><a class="nav-link" href="selected-work.html">Selected Work</a></section><section class="nav-group"><div class="nav-title">Academics</div><a class="nav-link" href="education.html">Education &amp; Courses</a><a class="nav-link" href="achievements.html">Achievements</a></section><section class="nav-group"><div class="nav-title">Experience</div><a class="nav-link" href="experience.html">Professional &amp; Internships</a></section><section class="nav-group"><div class="nav-title">Documents</div><a class="nav-link" href="Vijay_Singh_Resume.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></section></nav></aside>
+<main class="page-shell"><article class="content">
+<h1>Projects</h1>
+<h2>Optimization and Network Models</h2>
+<div class="item"><div class="meta-row"><strong>Branch-and-Cut Algorithm for GTSP</strong><span class="tech">Python, Gurobi, Matplotlib</span></div><ul><li>Formulated the symmetric generalized travelling salesman problem using node- and edge-selection variables.</li><li>Compared a baseline MILP, a construction heuristic with 2-opt, and branch-and-cut with subtour elimination constraints.</li></ul></div>
+<div class="item"><div class="meta-row"><strong>Branch-and-Bound for GAP and UFLP</strong><span class="tech">Python, Gurobi</span></div><ul><li>Formulated the generalized assignment and uncapacitated facility-location problems.</li><li>Developed custom branch-and-bound implementations for LP-based problem instances.</li></ul></div>
+<div class="item"><div class="meta-row"><strong>Resource-Constrained Shortest Path Problem</strong><span class="tech">Python, Gurobi, NetworkX</span></div><ul><li>Built integer- and linear-programming link-flow formulations with a distance budget.</li><li>Implemented column generation using path-flow variables and label-correcting pricing.</li></ul></div>
+<div class="item"><div class="meta-row"><strong>Branch-and-Cut for Symmetric TSP</strong><span class="tech">Python, Gurobi, NetworkX, OR-Tools</span></div><ul><li>Implemented connectivity and 2-connected cuts.</li><li>Compared results with and without cuts and benchmarked performance against Google OR-Tools.</li></ul></div>
+<h2>Data and Mobility Analytics</h2>
+<div class="item"><div class="meta-row"><strong>Contributor Verification Using Machine Learning</strong><span class="tech">Python, XGBoost</span></div><ul><li>Developed count-based features and a binary classification model.</li><li>Achieved approximately 91% validation accuracy using 10-fold cross-validation.</li></ul></div>
+<div class="item"><div class="meta-row"><strong>Last-Mile Mobility Analysis and Visualization</strong><span class="tech">Python, Excel, Power BI, QGIS</span></div><ul><li>Analysed metro last-mile survey data for Bengaluru, Delhi, and Nagpur.</li><li>Created dashboards and maps for mode share, travel time, cost, distance, and station accessibility.</li></ul></div>
+<footer class="footer">Last edited on July 20, 2026 11:45 PM (Time Zone: IST). &nbsp; Powered by a lightweight custom academic-site template.</footer>
+</article></main>
+<script src="assets/site.js"></script>
+</body>
+</html>

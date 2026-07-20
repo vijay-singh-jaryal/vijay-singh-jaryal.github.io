@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Vijay Singh, transportation systems engineer and IISc graduate.">
+  <title>M.Tech Thesis | Vijay Singh</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html"><img src="assets/network-mark.svg" alt=""><span>Vijay Singh</span></a>
+  <button class="mobile-menu-button" aria-label="Toggle navigation" aria-controls="site-navigation" aria-expanded="false">☰</button>
+</header>
+<aside class="sidebar" id="site-navigation"><div class="sidebar-spacer"></div><nav aria-label="Main navigation"><section class="nav-group"><div class="nav-title">About Me</div><a class="nav-link" href="index.html">Introduction</a><a class="nav-link" href="contact.html">Contact</a></section><section class="nav-group"><div class="nav-title">Research</div><a class="nav-link active" href="thesis.html">M.Tech Thesis</a><a class="nav-link" href="projects.html">Projects</a><a class="nav-link" href="selected-work.html">Selected Work</a></section><section class="nav-group"><div class="nav-title">Academics</div><a class="nav-link" href="education.html">Education &amp; Courses</a><a class="nav-link" href="achievements.html">Achievements</a></section><section class="nav-group"><div class="nav-title">Experience</div><a class="nav-link" href="experience.html">Professional &amp; Internships</a></section><section class="nav-group"><div class="nav-title">Documents</div><a class="nav-link" href="Vijay_Singh_Resume.pdf" target="_blank" rel="noopener">Curriculum Vitae</a></section></nav></aside>
+<main class="page-shell"><article class="content">
+<h1>M.Tech Thesis</h1>
+<h2>Estimation of Origin–Destination Matrices Using Traffic Counts</h2>
+<p>Origin–destination matrices describe how travel demand is distributed between zones. The thesis developed an automated framework for estimating these matrices from junction-level turn counts, reducing dependence on expensive and infrequent manual travel surveys.</p>
+<h2>Study Framework</h2>
+<ul>
+  <li>Created a VISSIM digital twin covering 8 junctions, 16 zones, and 7 vehicle classes around the IISc corridor.</li>
+  <li>Used traffic counts from 6 key junctions as observed inputs.</li>
+  <li>Automated simulation runs through a COM-based Python pipeline.</li>
+  <li>Compared MCP, SPSA, and TuRBO estimation approaches.</li>
+  <li>Evaluated results using R², NRMSE, GEH, and attraction-sum deviations.</li>
+</ul>
+<h2>Key Result</h2>
+<p>MCP performed best overall. For cars at high-volume junctions, representing approximately 60–65% of network traffic, the method achieved R² values above 0.7 and kept attraction-sum deviations below 20%. SPSA and TuRBO showed substantially larger deviations for several origin–destination pairs.</p>
+<h2>Tools</h2>
+<p>Python, VISSIM, COM automation, NumPy, Pandas, optimization and simulation-based estimation.</p>
+<footer class="footer">Last edited on July 20, 2026 11:45 PM (Time Zone: IST). &nbsp; Powered by a lightweight custom academic-site template.</footer>
+</article></main>
+<script src="assets/site.js"></script>
+</body>
+</html>
